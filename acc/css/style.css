@@ -9,7 +9,7 @@
   padding: 0; }
 
 .accordion {
-  margin: auto;
+  margin:100px auto;
   width: 380px;
   background: #ccc; }
   .accordion .item {
