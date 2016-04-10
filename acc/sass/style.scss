@@ -1,0 +1,87 @@
+@import 'var';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.accordion{
+    margin: auto;
+    width: 380px;
+    background: #ccc;
+    .item{
+        height: 100px;
+        h3{
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+            padding-left: 50px;
+            font-family: $mainfont;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        img{
+            padding-left: 15px;
+            width: 30px;
+            vertical-align: middle;
+        }
+        h3:before{
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+        } 
+    }
+    .item:first-of-type{
+        background: $Mahogany;
+        color: $GoldenSand;
+    }
+    .item:nth-of-type(2){
+        background: $AppleBlossom;
+        color: $EggWhite;
+    }
+    .item:nth-of-type(3){
+        background: $GoldenSand;
+        color: $Mahogany;
+    }
+    .item:nth-of-type(4){
+        background: $EggWhite;
+        color: $OrangeRoughy;
+    }
+    .item:last-of-type{
+        background: $OrangeRoughy;
+        color: $EggWhite;
+    }
+    p{
+        font-family: $mainfont;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px;
+        display: none;
+        box-shadow: inset 0 3px 7px rgba(#000, 0.2);
+    }
+    p:first-of-type{
+        background: $Mahogany;
+        color: $GoldenSand;
+    }
+    p:nth-of-type(2){
+        background: $AppleBlossom;
+        color: $EggWhite;
+    }
+    p:nth-of-type(3){
+        background: $GoldenSand;
+        color: $Mahogany;
+        
+    }
+    p:nth-of-type(4){
+        background: $EggWhite;
+        color: $OrangeRoughy;
+    }
+    p:last-of-type{
+        background: $OrangeRoughy;
+        color: $EggWhite;
+    }
+}
+
+
+
